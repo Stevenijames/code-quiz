@@ -1,0 +1,120 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Float and Clearfix Block */
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Page Elements Block */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(234, 243, 240);
+}
+
+header {
+    padding: 1rem 0;
+    background-color: rgb(156, 70, 0);
+    border-bottom: 5px solid  #3a3505;
+    border-radius: 0 0 10px 10px;
+
+}
+
+/* View High Scores & Time 
+in the header */
+header section {
+    text-align: left;
+    min-width: 6rem;
+    padding: 5px 15px;
+}
+
+main {
+    text-align: center;
+}
+
+aside {
+    min-height: 20rem;
+    min-width: 10rem;
+    background-color: silver;
+}
+
+/* Question Section */
+.question-section {
+    width: 70%;
+    min-height: 7rem;
+    background-color: rgb(197, 211, 255);
+    margin: 5rem 15% 1rem;
+}
+
+.question,
+.end {
+    padding: 3rem;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+/* Correct/Incorrect Icons */
+.correct,
+.incorrect {
+    max-width: 5rem;
+}
+
+.end {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.score {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+/* Answers Styling */
+.answer-button {
+    min-width: 50%;
+    max-width: 50%;
+    display: block;
+    margin: 1rem auto 1rem 15%;
+    padding: 1.4rem;
+    background-color: rgb(227, 238, 124);
+    border-radius: 15px;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+label,
+#initials {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.submit-results {
+    margin: 1.5rem;
+    padding: 0.5rem 4rem;
+}
+
+.view-high-scores,
+#time,
+#seconds {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1b1b1b;
+}
+
+.view-high-scores:hover {
+    cursor: pointer;
+}
